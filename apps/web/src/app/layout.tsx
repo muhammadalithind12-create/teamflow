@@ -24,8 +24,8 @@ const robotoMono = localFont({
 });
 
 export const metadata = {
-  title: 'Nextbase Open source starter',
-  description: 'Built with Next.js, Supabase, and Tailwind CSS',
+  title: 'TeamFlow — Realtime Kanban for Teams',
+  description: 'TeamFlow is a multi-tenant Kanban SaaS with realtime sync and strict Supabase RLS tenant isolation.',
 };
 
 export default async function RootLayout({ children }: { children: React.ReactNode }) {
